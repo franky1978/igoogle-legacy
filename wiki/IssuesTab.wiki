@@ -9,6 +9,8 @@ We are using the igoogle-legacy issue tracker to track the following tickets:
 
 If reporting a feature request, please first check whether the feature is supported in the updated gadgets API or within !OpenSocial. All feature requests for the legacy API will be given very low priority.
 
+If someone has duplicated your gadget, or your content, please file a DMCA complaint as outlined here: [http://www.google.com/igoogle_dmca.html iGoogle DMCA policy]. Requests to delete these duplicate gadgets will only be honored by following the policy.
+
 ----
 =Issue Lists=
   * [http://code.google.com/p/igoogle-legacy/issues/list All open tickets]
