@@ -5,7 +5,9 @@
 We are using the igoogle-legacy issue tracker to track the following tickets:
   # *feature requests* for the existing iGoogle API
   # *bugs* with the existing iGoogle API
-  # *alias and deletion requests* for the directory
+  # *bugs* with the alias and deletion request forms
+
+To file an alias request, please complete [http://spreadsheets.google.com/viewform?hl=en&formkey=cEhGZVVmVUNQVmI1N2lvOW5nOGJNUFE6MA this form]. To file a deletion request, please complete [http://spreadsheets.google.com/viewform?hl=en&formkey=cEhGZVVmVUNQVmI0eFc3N3pONG5QUEE6MA this form].
 
 If reporting a feature request, please first check whether the feature is supported in the updated gadgets API or within !OpenSocial. All feature requests for the legacy API will be given very low priority.
 
