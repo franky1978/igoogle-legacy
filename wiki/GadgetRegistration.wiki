@@ -9,7 +9,7 @@ Gadget registration is important because it provides verifiable ownership for th
 To register your gadget you will need write access to your gadget's XML file. To perform the registration follow these steps:
   # Visit the [https://www.google.com/gadgets/directory/verify registration page]
   # Enter the URL to your gadget XML (see note below)
-  # Copy the token generated on the next page into the CDATA section of your gadget XML and save the gadget on your server (without changing the location)
+  # Copy the token generated on the next page into the CDATA section of your gadget XML and save the gadget on your server (without changing the location), like in this [http://code.google.com/p/opensocial-resources/source/browse/samples/rest_rpc/sample.xml example]
   # Verify the token on the registration page by clicking the 'Verify' button
   # Keep the consumer key and consumer secret for your later reference
 
