@@ -1,0 +1,115 @@
+# Before posting a ticket to the tracker, read this ENTIRE page #
+
+We are using the igoogle-legacy issue tracker to track the following tickets:
+  1. **feature requests** for the existing iGoogle API
+  1. **bugs** with the existing iGoogle API
+  1. **bugs** with the alias and deletion request forms
+
+To file an alias request, please complete [this form](http://spreadsheets.google.com/viewform?hl=en&formkey=cEhGZVVmVUNQVmI1N2lvOW5nOGJNUFE6MA). To file a deletion request, please complete [this form](http://spreadsheets.google.com/viewform?hl=en&formkey=cEhGZVVmVUNQVmI0eFc3N3pONG5QUEE6MA).
+
+If reporting a feature request, please first check whether the feature is supported in the updated gadgets API or within OpenSocial. All feature requests for the legacy API will be given very low priority.
+
+If someone has duplicated your gadget, or your content, please file a DMCA complaint as outlined here: [iGoogle DMCA policy](http://www.google.com/igoogle_dmca.html). Requests to delete these duplicate gadgets will only be honored by following the policy.
+
+
+---
+
+# Issue Lists #
+  * [All open tickets](http://code.google.com/p/igoogle-legacy/issues/list)
+
+
+---
+
+# Using the issue tracker #
+
+The tracker helps **the iGoogle and gadgets API teams** :
+  * Track current problems that are affecting developers
+  * Prioritize bug fixes and feature implementations based on how many developers are following them
+  * Reliably communicate ticket resolutions to developers
+
+The tracker will help **gadget developers** :
+  * Make sure that the appropriate team is aware of an issue they may be experiencing or a feature that they desire
+  * Vote for bugs and features that they feel are important
+  * Receive update messages when a ticket is updated or closed.
+
+To help this tracker work smoothly, we ask that developers make an effort to file high quality issue reports.  It's highly recommended that you read [How to Report Bugs Effectively](http://www.chiark.greenend.org.uk/~sgtatham/bugs.html), but at the very least, _we insist that you read this entire page before using the tracker_.
+
+
+## Using the tracker to prioritize tickets ##
+Tickets in this tracker can be starred.  A number next to the title of each ticket indicates how many unique developers have starred it, giving us an idea of how requested a bug fix or a feature implementation may be.  If you find a ticket that you feel should be addressed urgently, please star it (click on the star and make sure it looks like ![http://code.google.com/hosting/images/star_on.gif](http://code.google.com/hosting/images/star_on.gif)).
+
+Depending on your project [settings](http://code.google.com/hosting/settings), you can be notified via email of all changes to tickets that you have starred.  This will let you know when a bug has been fixed or a feature has been implemented.
+
+## Process to report bugs/request features ##
+### Research your bug/feature ###
+Having lots of duplicated tickets makes the tracker lose effectiveness.  Make sure that you do the following before posting:
+
+  1. Search the [iGoogle Developer Forum](http://groups.google.com/group/Google-Gadgets-API)  for people experiencing similar issues.  If you can't find an answer there, then
+  1. [Search this issue tracker](http://code.google.com/p/igoogle-legacy/issues/advsearch) for keywords relating to your bug.
+
+If you find an existing issue, make sure that you star the issue to be notified of future changes to the ticket.  If you've looked in these locations and still can't find anything, then go ahead and start the filing process.
+
+### Fill out the report form ###
+To file the ticket, go to the [input form](http://code.google.com/p/igoogle-legacy/issues/entry).  You will get the following template:
+
+```
+Description of the bug/feature
+==================================
+```
+Please put a description of the symptoms you are experiencing or the feature you would like here.  From [Mozilla's bug writing guidelines](http://developer.mozilla.org/en/docs/Bug_writing_guidelines):
+
+> Summary: How would you describe the bug, in approximately 60 or fewer characters?
+> A good summary should quickly and uniquely identify a bug report. It should explain the problem, not your suggested solution.  **Good**: _"Canceling a File Copy dialog crashes File Manager"_ **Bad**: _"Software crashes"_ **Bad**: _"Browser should work with my web site"_
+
+**If you are filing a feature request, fill this field out with enough data to describe how your feature will work, and DELETE THE REST OF THE TEMPLATE.  You may submit the feature request with just this one field.**
+
+```
+PLEASE FILL OUT THE FOLLOWING FOR A BUG REPORT ONLY (delete everything below this line for a feature request):
+
+What steps will reproduce the problem?
+======================================
+1. 
+2. 
+3. 
+```
+
+Break down the exact steps that a programmer can follow to reproduce your bug.  Be specific!   Include links to sample applications that demonstrate your error, if possible.  The easier you can make it for developers to verify your bug, better! **Good**: _1.) Enable Firebug 2.) Install the gadget at http://foo.com/bug.xml 3.) Click "fetch feed"_
+
+```
+What is the expected output? 
+============================
+```
+
+Describe what the application should have done, were the bug not present.
+
+```
+What is the actual output?
+==========================
+```
+
+Describe what actually happens when a user repeats the steps you listed above.
+
+```
+Which browsers have you experienced this on?
+============================================
+```
+
+List the browser(s) that you have used to recreate the bug.  Please be specific - even if you think a bug may affect all browsers, please let us know which browser and what version you are using.
+
+```
+Which operating systems have you experienced this on?
+=====================================================
+```
+
+List the operating system(s) that you have used to recreate the bug.  Please be specific - even if you think a bug may affect all operating systems, please let us know which OS and what version you are using.
+
+```
+Please provide any additional information below.
+```
+
+This is the appropriate section to list as much additional information that may be of use as you can.  Include any stack traces, failing http requests, or any other debug information you have access to.  Attach an image to the bug if it helps illustrate your bug.
+
+### Posting the ticket ###
+If you are not a member of this project, you will not be able to add any labels to the bug.  One of the project members will review your bug and categorize it based on the information you included in your report.
+
+Make sure that the star next to ![http://code.google.com/hosting/images/star_on.gif](http://code.google.com/hosting/images/star_on.gif) `Notify me of issue changes, if enabled in settings` is highlighted if you wish to be notified of updates to this issue.

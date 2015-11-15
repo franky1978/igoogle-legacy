@@ -1,0 +1,26 @@
+# Introduction #
+
+Gadget registration is important because it provides verifiable ownership for the purposes of alias and deletion requests.
+
+# Details #
+
+To register your gadget you will need write access to your gadget's XML file. To perform the registration follow these steps:
+  1. Visit the [registration page](https://www.google.com/gadgets/directory/verify)
+  1. Enter the URL to your gadget XML (see note below)
+  1. Copy the token generated on the next page into the CDATA section of your gadget XML and save the gadget on your server (without changing the location), like in this [example](http://code.google.com/p/opensocial-resources/source/browse/samples/rest_rpc/sample.xml)
+  1. Verify the token on the registration page by clicking the 'Verify' button
+  1. Keep the consumer key and consumer secret for your later reference
+
+## Gadget XML URL ##
+
+The gadget XML URL is the publicly viewable XML file that contains your gadget code. It is not the link to the gadget in the directory, nor the link to the output of iGoogle after rendering your gadget. Here are some examples:
+
+### Good ###
+
+http://code.google.com/p/opensocial-resources/source/browse/samples/rest_rpc/sample.xml
+
+### Bad ###
+
+http://www.google.com/ig/directory?type=gadgets&url=www.google.com/ig/modules/builtin_weather.xml
+
+http://152.ig.sandbox.gmodules.com/gadgets/ifr?view=home&url=http://opensocial-resources.googlecode.com/svn/samples/rest_rpc/sample.xml&nocache=0&lang=en&country=us&.lang=en&.country=us&synd=ig&mid=152&ifpctok=-4018411904723702265&exp_split_js=1&parent=http://www.google.com&refresh=3600#st=c%3Dig%26e%3DAPu7icpgqjsHsKvAraHabguLzoJk8kruT9FhF9ena/LjZF7okQ7nz2hQRhMeSyIJvPHxjpfXcOGwfJ5KXbjo6RFj4uK4bzufHgczYYZ%252BrBW/PW9APXtip3S/3Q4YmxfraTi57wzJsJjs&gadgetId=108507453369344654693&gadgetOwner=116872018614015227492&gadgetViewer=116872018614015227492&extern_js=/extern_js/f/CgJlbhICdXMrMAo4ACwrMBI4ACwrMBM4ACwrMBU4ACw/Jj4xRrPIjxc.js

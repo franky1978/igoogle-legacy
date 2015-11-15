@@ -1,0 +1,1 @@
+The project is intended as a resource for developers who are using the older `_IG_`-prefaced functions of the gadgets API. If reporting issues with the API, please visit the [Issue Tracker](http://code.google.com/p/igoogle-legacy/wiki/IssuesTab?tm=3) to report bugs, request features, and "star" the issues that are important to you!
